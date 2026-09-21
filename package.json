@@ -1,0 +1,28 @@
+{
+  "name": "bitacora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinVazquez1982/bitacora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinVazquez1982/bitacora/issues"
+  },
+  "homepage": "https://github.com/MartinVazquez1982/bitacora#readme",
+  "private": "true",
+  "workspaces": [
+    "shared",
+    "backend"
+  ],
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
+  }
+}

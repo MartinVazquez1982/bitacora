@@ -1,0 +1,21 @@
+# dependencies and build output
+node_modules/
+dist/
+release/
+*.tsbuildinfo
+coverage/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# local data
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# OS / logs
+.DS_Store
+npm-debug.log*
